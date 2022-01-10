@@ -1001,6 +1001,80 @@ header .home-nav .btns-nav .nav-sign-btn a:hover {
   background-color: #4146e6;
 }
 
+footer {
+  background-color: #585CE9;
+  padding-top: 70px;
+}
+
+footer * {
+  font-size: 14px;
+}
+
+footer a {
+  color: #E5E9F7;
+}
+
+footer .jirono-logo {
+  margin-bottom: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  color: #fff;
+  line-height: 26px;
+}
+
+footer h4 {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+footer .footer-list-item {
+  color: #E5E9F7;
+  display: inline-block;
+  height: 32px;
+  line-height: 32px;
+}
+
+footer .footer-list-item i {
+  font-size: 10px;
+  position: relative;
+  top: -1px;
+  height: 32px;
+  line-height: 32px;
+  margin-right: 12px;
+}
+
+footer .footer-list-item span {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+footer .footer-list-item:hover span {
+  margin-left: 5px;
+}
+
+footer .contact p {
+  margin-bottom: 5px;
+}
+
+footer .contact .adress {
+  max-width: 180px;
+}
+
+footer ul li i {
+  padding-right: 10px;
+  font-size: 16px;
+}
+
+footer .copyright {
+  padding: 30px 0;
+  border-top: 1px solid #777BFF;
+  margin-top: 30px;
+  text-align: center;
+}
+
 * {
   font-family: 'Nunito', sans-serif;
 }
