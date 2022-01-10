@@ -598,6 +598,41 @@ header .home-nav .btns-nav .nav-sign-btn a:hover {
           transform: translateX(3px);
 }
 
+#counter {
+  background-image: url(/assets/images/parallax.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#counter .overlay {
+  width: 100%;
+  height: 100%;
+  background: RGBA(88, 92, 233, 0.8);
+}
+
+#counter .counter-box {
+  width: 115px;
+  margin: 0 auto;
+  padding: 90px 0;
+}
+
+#counter .counter-box h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  color: white;
+  border-bottom: 1px dashed white;
+  line-height: 65px;
+}
+
+#counter .counter-box h3 {
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  line-height: 30px;
+}
+
 * {
   font-family: 'Nunito', sans-serif;
 }
