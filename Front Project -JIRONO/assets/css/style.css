@@ -920,6 +920,87 @@ header .home-nav .btns-nav .nav-sign-btn a:hover {
   background-color: #585CE9;
 }
 
+#blogs {
+  padding: 100px 0 80px;
+  text-align: center;
+}
+
+#blogs .section-title {
+  font-size: 28px;
+  color: #3B566E;
+  margin-bottom: 20px;
+  font-weight: 400px;
+  letter-spacing: 1.75px;
+  line-height: 38px;
+}
+
+#blogs p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+#blogs .blog-post .blog-img-box {
+  border-radius: 5px;
+  overflow: hidden;
+  height: 200px;
+  margin-bottom: 25px;
+}
+
+#blogs .blog-post .blog-img-box img {
+  width: 100%;
+}
+
+#blogs .blog-post .blog-headline {
+  line-height: 34px;
+  font-size: 16px;
+  color: #3B566E;
+  font-weight: 400;
+  letter-spacing: 1px;
+  display: inline-block;
+  margin-bottom: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#blogs .blog-post .blog-headline:hover {
+  color: #585CE9;
+}
+
+#blogs .blog-post p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+#blogs .blog-post .read-more {
+  display: inline-block;
+  width: 160px;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 42px;
+  color: white;
+  background-color: #585CE9;
+  border: 1px solid #585CE9;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  transition: 0.3s;
+}
+
+#blogs .blog-post .read-more:hover {
+  background-color: #4146e6;
+}
+
 * {
   font-family: 'Nunito', sans-serif;
 }
