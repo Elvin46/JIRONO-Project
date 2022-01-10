@@ -401,6 +401,105 @@ header .home-nav .btns-nav .nav-sign-btn a:hover {
   color: white;
 }
 
+#cloud-services {
+  background: #F7FAFD;
+  padding: 100px 0 80px;
+}
+
+#cloud-services .section-title {
+  font-size: 28px;
+  color: #3B566E;
+  margin-bottom: 20px;
+  font-weight: 400px;
+  letter-spacing: 1.75px;
+  line-height: 38px;
+}
+
+#cloud-services p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+#cloud-services .cloud-group a {
+  font-size: 14px;
+  line-height: 40px;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+  display: inline-block;
+  background-color: #fff;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  color: #3B566E;
+  position: relative;
+  overflow: hidden;
+}
+
+#cloud-services .cloud-group a i {
+  margin-left: 22px;
+  margin-right: 32px;
+  font-size: 10px;
+  color: #3B566E;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#cloud-services .cloud-group a span {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#cloud-services .cloud-group a::before {
+  content: '';
+  position: absolute;
+  background-color: #F7FAFD;
+  height: 100px;
+  width: 110px;
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+  left: -46px;
+  z-index: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#cloud-services .cloud-group a:hover::before {
+  background-color: #585CE9;
+  height: 115px;
+}
+
+#cloud-services .cloud-group a:hover span {
+  margin-left: 5px;
+}
+
+#cloud-services .cloud-group a:hover i {
+  color: white;
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
+}
+
+#cloud-services .cloud-group .active::before {
+  background-color: #585CE9;
+  height: 115px;
+}
+
+#cloud-services .cloud-group .active span {
+  margin-left: 5px;
+}
+
+#cloud-services .cloud-group .active i {
+  color: white;
+  -webkit-transform: translateX(3px);
+          transform: translateX(3px);
+}
+
 * {
   font-family: 'Nunito', sans-serif;
 }
