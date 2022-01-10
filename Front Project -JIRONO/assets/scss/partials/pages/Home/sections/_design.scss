@@ -14,7 +14,7 @@
             height: 40px;
             width: 100%;
             display: inline-block;
-            background-color: $background-color;
+            background-color: white;
             margin-bottom: 20px;
             box-shadow: 0 2px 48px 0 rgba(0,0,0,0.08);
             color: $secondary-color;
@@ -35,7 +35,7 @@
             &::before{
                 content: '';
                 position: absolute;
-                background-color: #F7FAFD;
+                background-color: $bg-color;
                 height: 100px;
                 width: 110px;
                 transform: rotate(60deg);

@@ -10,6 +10,7 @@
     .team-item{
         box-shadow: 0 2px 48px 0 rgba(0,0,0,0.08);
         position: relative;
+        margin-bottom: 55px;
         .team-box{ 
             border-radius: 5px;
             overflow: hidden;
@@ -71,8 +72,6 @@
             border: 6px solid white;
             box-shadow: 0 2px 48px 0 rgba(0,0,0,0.08);
             transition: 0.4s;
-
-            
         }
         &:hover{
             .team-worker-info::before{

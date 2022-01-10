@@ -431,7 +431,7 @@ header .home-nav .btns-nav .nav-sign-btn a:hover {
   height: 40px;
   width: 100%;
   display: inline-block;
-  background-color: #fff;
+  background-color: white;
   margin-bottom: 20px;
   -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
@@ -529,7 +529,7 @@ header .home-nav .btns-nav .nav-sign-btn a:hover {
   height: 40px;
   width: 100%;
   display: inline-block;
-  background-color: #fff;
+  background-color: white;
   margin-bottom: 20px;
   -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
@@ -660,6 +660,7 @@ header .home-nav .btns-nav .nav-sign-btn a:hover {
   -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   position: relative;
+  margin-bottom: 55px;
 }
 
 #our-team .team-item .team-box {
@@ -746,6 +747,131 @@ header .home-nav .btns-nav .nav-sign-btn a:hover {
 
 #our-team .team-item:hover ul li {
   color: white;
+}
+
+#pricing {
+  padding: 100px 0 80px;
+  text-align: center;
+  background-color: #F7FAFD;
+}
+
+#pricing .section-title {
+  font-size: 28px;
+  color: #3B566E;
+  margin-bottom: 20px;
+  font-weight: 400px;
+  letter-spacing: 1.75px;
+  line-height: 38px;
+}
+
+#pricing p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 50px;
+}
+
+#pricing .pricing-box {
+  background-color: white;
+  -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  border-radius: 5px;
+  padding-bottom: 40px;
+  overflow: hidden;
+}
+
+#pricing .pricing-box .pricing-name {
+  height: 130px;
+  border-bottom: 1px solid #F7FAFD;
+  position: relative;
+  text-align: center;
+}
+
+#pricing .pricing-box .pricing-name h3 {
+  text-transform: uppercase;
+  line-height: 130px;
+  font-size: 16px;
+  color: #3B566E;
+  font-weight: 700;
+}
+
+#pricing .pricing-box .pricing-name span {
+  position: absolute;
+  bottom: -20px;
+  width: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+  background-color: #F7FAFD;
+  margin: 0 auto;
+  left: 45.4%;
+  color: #585CE9;
+}
+
+#pricing .pricing-box .active {
+  background-image: linear-gradient(135deg, #585CE9 0%, #5C83E3 100%);
+}
+
+#pricing .pricing-box .active h3 {
+  color: white;
+}
+
+#pricing .pricing-box .pricing-body {
+  margin-top: 60px;
+}
+
+#pricing .pricing-box .pricing-body .price-monthly {
+  margin-bottom: 30px;
+}
+
+#pricing .pricing-box .pricing-body .price-monthly span {
+  color: #585CE9;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#pricing .pricing-box .pricing-body .price-monthly .currency {
+  font-size: 20px;
+  position: relative;
+  top: -15px;
+}
+
+#pricing .pricing-box .pricing-body .price-monthly .price {
+  font-size: 34px;
+}
+
+#pricing .pricing-box .pricing-body .plan-features {
+  margin-bottom: 40px;
+}
+
+#pricing .pricing-box .pricing-body .plan-features li {
+  margin-bottom: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #3B566E;
+  letter-spacing: 0.88px;
+}
+
+#pricing .pricing-box .pricing-body .plan-features .disabled {
+  color: #ccdcea;
+  text-decoration: line-through;
+}
+
+#pricing .pricing-box .pricing-body a {
+  display: inline-block;
+  width: 160px;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 42px;
+  color: white;
+  background-color: #585CE9;
+  border: 1px solid #585CE9;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 * {
