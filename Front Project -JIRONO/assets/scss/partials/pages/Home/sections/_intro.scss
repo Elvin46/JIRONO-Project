@@ -32,19 +32,15 @@
             position: relative;
             .img-1{
                 height: 330px;
-                transform: translateX(-110px);
             }
             .img-3{
                 height: 200px;
-                transform: translateX(-20px);
             }
             .img-2{
                 height: 250px;
-                transform: translateX(-55px);
             }
             .img-4{
                 height: 280px;
-                transform: translateX(-80px);
             }
             img{
                 position: relative;
@@ -109,5 +105,36 @@
             
         }
         
+    }
+}
+
+// RESPONSIVE
+@media only screen and (max-width: 992px) {
+    #intro{
+        *{
+            text-align: center;
+        }
+        a{
+            margin-bottom: 50px;
+        }
+        img{
+            width: 100%;
+        }
+    }
+}
+@media only screen and (min-width: 992px) {
+    #intro{
+        .img-1{
+            transform: translateX(-110px);
+        }
+        .img-3{
+            transform: translateX(-20px);
+        }
+        .img-2{
+            transform: translateX(-55px);
+        }
+        .img-4{
+            transform: translateX(-80px);
+        }
     }
 }

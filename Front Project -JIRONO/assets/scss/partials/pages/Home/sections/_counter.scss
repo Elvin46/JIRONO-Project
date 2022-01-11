@@ -10,7 +10,6 @@
     .counter-box{
         width: 115px;
         margin: 0 auto;
-        padding: 90px 0;
         h2{
             text-align: center;
             font-weight: 400;
@@ -26,5 +25,22 @@
             font-weight: 400;
             line-height: 30px;
         }
+    }
+}
+@media only screen and (max-width: 992px) {
+    .counter-box{
+        padding: 20px 0;
+        &__top{
+            padding-top: 80px;
+        }
+        &__bottom{
+            padding-bottom: 80px;
+        }
+    }
+
+}
+@media only screen and (min-width: 992px) {
+    .counter-box{
+        padding: 90px 0;
     }
 }

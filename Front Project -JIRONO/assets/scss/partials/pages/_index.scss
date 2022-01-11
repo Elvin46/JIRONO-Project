@@ -6,11 +6,6 @@
 .container{
     max-width: 1140px;
 }
-@media only screen and (max-width: 1200px) {
-    .container{
-        max-width: 960px;
-    }
-  }
 li{
     list-style: none;
 }
@@ -20,4 +15,19 @@ a{
 ul{
     margin: 0;
     padding: 0;
+}
+@media only screen and (max-width: 1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        max-width: 720px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        max-width: 540px;
+    }
 }

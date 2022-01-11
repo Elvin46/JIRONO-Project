@@ -8,6 +8,7 @@
         @include text($margin-bottom:50px);
     }
     .blog-post{
+        margin-bottom: 30px;
         .blog-img-box{
             border-radius: 5px;
             overflow: hidden;

@@ -72,4 +72,15 @@
             }
         }
     }
+    .cloud-bg{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .cloud-bg-box{
+        text-align: center;
+    }
+    .mobile-margin-bottom{
+        margin-bottom: 30px;
+    }
 }
