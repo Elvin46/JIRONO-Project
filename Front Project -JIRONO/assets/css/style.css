@@ -2028,4 +2028,78 @@ footer .copyright {
 
 #features {
   padding: 100px 0 70px;
+  background-color: #f7fafd;
+}
+
+#features .card-item {
+  padding: 30px;
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#features .card-item .card-icon {
+  margin: 0 auto;
+  position: relative;
+  width: 162px;
+  height: 162px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#features .card-item .card-icon::before {
+  content: '';
+  position: absolute;
+  width: 135px;
+  height: 135px;
+  background-color: #f7fafd;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#features .card-item .card-icon img {
+  position: relative;
+  z-index: 3;
+}
+
+#features .card-item .card-text {
+  padding-left: 30px;
+  width: calc(100%*2/3);
+}
+
+#features .card-item .card-text h4 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #3B566E;
+}
+
+#features .card-item .card-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  font-size: 14px;
+  width: 284px;
+}
+
+#features .card-item:hover .card-icon::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
