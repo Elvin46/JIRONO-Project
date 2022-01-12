@@ -1,10 +1,11 @@
-.home-header{
+.page-header{
     position: fixed;
     width: 100%;
     z-index: 100;
-    height: 100px;
+    height: 80px;
     transition: 0.4s;
-    background-color: transparent;
+    background-color: white;
+    box-shadow: 0 2px 28px 0 rgba(0,0,0,0.06);
     .container{
         position: relative;
     }
@@ -13,7 +14,6 @@
         letter-spacing: 1px;
         display: flex;
         justify-content: space-between;
-        background-color: transparent;
         align-items: center;
         .nav-left{
             display: flex;
@@ -30,7 +30,7 @@
                     a{
                         font-weight: 600;
                         font-size: 14px;
-                        color: $text-color;
+                        color: $secondary-color;
                         cursor: pointer;
                     }
                     i{
@@ -210,36 +210,4 @@
     position: fixed;
     box-shadow: 0 2px 28px 0 rgba(0,0,0,0.06);
     transition: 0.4s;
-}
-@media only screen and (max-width: 992px){
-    .nav-menu{
-        display: none;
-    }
-    .btns-nav{
-        display: none;
-    }
-    .menu-btn{
-        display: flex;
-    }
-    header{
-        background-color: white;
-        height: 80px;
-        position: fixed;
-        box-shadow: 0 2px 28px 0 rgba(0,0,0,0.06);
-        transition: 0.4s;
-    }
-    .header-logo{
-        margin-left: 15px;
-    }
-}
-@media only screen and (min-width: 992px){
-    .nav-menu{
-        display: flex;
-    }
-    .btns-nav{
-        display: flex;
-    }
-    .menu-btn{
-        display: none;
-    }
 }
