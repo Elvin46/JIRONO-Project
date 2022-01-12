@@ -2028,7 +2028,7 @@ footer .copyright {
 
 #features {
   padding: 100px 0 70px;
-  background-color: #f7fafd;
+  background-color: #F7FAFD;
 }
 
 #features .card-item {
@@ -2066,7 +2066,7 @@ footer .copyright {
   position: absolute;
   width: 135px;
   height: 135px;
-  background-color: #f7fafd;
+  background-color: #F7FAFD;
   border-radius: 5px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -2102,4 +2102,102 @@ footer .copyright {
 #features .card-item:hover .card-icon::before {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
+}
+
+#questions {
+  padding: 100px 0 100px;
+}
+
+#questions .section-text h1 {
+  font-size: 30px;
+  color: #585CE9;
+  margin-bottom: 20px;
+}
+
+#questions .section-text p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+#questions .section-text a {
+  display: inline-block;
+  width: 160px;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 42px;
+  color: white;
+  background-color: #585CE9;
+  border: 1px solid #585CE9;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  margin-bottom: 40px;
+}
+
+#questions .section-text a:hover {
+  background: #4146e6;
+}
+
+#questions .faq-group {
+  -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+          box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+}
+
+#questions .faq-group .faq-card .card-question {
+  padding: 20px 30px;
+  border-bottom: 1px solid #F7FAFD;
+  cursor: pointer;
+}
+
+#questions .faq-group .faq-card .card-question h4 {
+  font-size: 15px;
+  color: #3B566E;
+  margin: 0;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#questions .faq-group .faq-card .card-question:hover {
+  background-color: #F7FAFD;
+}
+
+#questions .faq-group .faq-card .card-question:hover h4 {
+  padding-left: 10px;
+}
+
+#questions .faq-group .faq-card .answer-collapse {
+  height: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  overflow: hidden;
+}
+
+#questions .faq-group .faq-card .answer-collapse .card-answer {
+  padding: 30px;
+  padding-bottom: 16px;
+  overflow: hidden;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#questions .faq-group .faq-card .answer-collapse .card-answer p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+#questions .faq-group .faq-card .visible {
+  height: 214px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }

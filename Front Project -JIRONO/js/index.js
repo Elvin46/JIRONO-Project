@@ -28,3 +28,25 @@ const collapse = document.querySelector(".nav-menu-collapse")
 btn.addEventListener('click' , function() {
     collapse.classList.toggle("visible")
 });
+
+// ----------FAQs DROPDOWN ANSWER----------
+var acc = document.getElementsByClassName("card-question");
+var answers = document.querySelectorAll(".answer-collapse")
+var i;
+let ansOpen = false
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    var ans = this.nextElementSibling;
+    if(!ansOpen) {
+      for (let j  = 0; j < answers.length; j++) {
+        answers[j].classList.remove('visible')
+      }
+      ans.classList.add('visible');
+      ansOpen = true;
+    } else {
+      
+      ans.classList.remove('visible');
+      ansOpen = false;
+    }
+  })
+}
