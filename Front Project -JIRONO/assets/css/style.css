@@ -3210,3 +3210,220 @@ footer .copyright {
   transition: 0.3s;
   margin-bottom: 40px;
 }
+
+#cloud-solutions {
+  padding: 100px 0 70px;
+  background-color: #F7FAFD;
+}
+
+#cloud-solutions p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #6F8BA4;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+#cloud-solutions .img-main {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+#cloud-solutions .post-gallery .gallery-item a {
+  height: 185px;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+#cloud-solutions .post-gallery .gallery-item a img {
+  height: 100%;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#cloud-solutions .post-gallery .gallery-item a:hover img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+#cloud-solutions .side-list {
+  padding: 0 30px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+#cloud-solutions .side-list li {
+  height: 50px;
+  border-bottom: 1px solid #F7FAFD;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#cloud-solutions .side-list li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 50px;
+  color: #3B566E;
+  width: 100%;
+  position: relative;
+  z-index: 4;
+}
+
+#cloud-solutions .side-list li a i {
+  font-size: 9px;
+  position: absolute;
+}
+
+#cloud-solutions .side-list li a h5 {
+  line-height: 24px;
+  height: 24px;
+  margin: 0;
+  font-size: 14px;
+  margin-left: 30px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#cloud-solutions .side-list li a span {
+  float: right;
+  border-radius: 100px;
+  background-color: #585CE9;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 10px;
+  font-size: 10px;
+  color: white;
+}
+
+#cloud-solutions .side-list li:hover h5 {
+  padding-left: 10px;
+}
+
+#cloud-solutions .side-list .active {
+  position: relative;
+}
+
+#cloud-solutions .side-list .active a {
+  color: white;
+}
+
+#cloud-solutions .side-list::before {
+  content: '';
+  position: absolute;
+  background-color: #585CE9;
+  top: 0;
+  left: -30px;
+  height: 100%;
+  width: 356px;
+  z-index: 3;
+}
+
+#cloud-solutions .contact-us {
+  background-image: url(/assets/images/blog-posts/5.jpg);
+  height: 230px;
+  border-radius: 5px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+#cloud-solutions .contact-us .overlay {
+  width: 100%;
+  height: 100%;
+  background: RGBA(88, 92, 233, 0.8);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#cloud-solutions .contact-us .overlay .information {
+  text-align: center;
+  padding: 0 50px;
+}
+
+#cloud-solutions .contact-us .overlay .information p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+#cloud-solutions .contact-us .overlay .information a {
+  display: inline-block;
+  width: 160px;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 36px;
+  color: white;
+  background-color: #585CE9;
+  border: 1px solid #585CE9;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: white;
+  color: #585CE9;
+  border: none;
+}
+
+#cloud-solutions .pagination {
+  margin: 30px 0;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#cloud-solutions .pagination li {
+  background-color: white;
+  margin: 0;
+  margin-left: -1px;
+}
+
+#cloud-solutions .pagination li a {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: 1px solid #dee2e6;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  color: #585CE9;
+}
+
+#cloud-solutions .pagination li:hover {
+  background-color: #F7FAFD;
+}
+
+#cloud-solutions .pagination li:first-child a {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+#cloud-solutions .pagination li:last-child a {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
