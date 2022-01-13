@@ -1,3 +1,10 @@
+// ----------RELODER----------
+$(document).ready(function() {
+  $(".loader").delay(1000).fadeOut("slow")
+    $("#overlayer").delay(1000).fadeOut("slow")
+})
+
+
 // ----------STICKY NAVBAR----------
 var navbar = document.querySelector("header");
 var sticky = 45
@@ -50,3 +57,87 @@ for (i = 0; i < acc.length; i++) {
     }
   })
 }
+
+
+// ----------COMMENTS----------
+
+let addBtn=document.querySelector(".send-btn");
+  let inputName=document.querySelector(".input-name");
+  let inputTxt=document.querySelector(".input-text");
+  let error=document.querySelector(".error");
+  let listComments=document.querySelector(".comment-items")
+
+  addBtn.addEventListener("click",function(e){
+      e.preventDefault();
+      let username=inputName.value;
+      let usercomment=inputTxt.value;
+
+      let date= new Date();
+
+
+      if(username=="" && usercomment==""){
+           error.classList.remove("d-none")
+      }
+      else{
+        error.classList.add("d-none")
+      }
+
+      if(localStorage.getItem("comments")==null){
+        localStorage.setItem("comments",JSON.stringify([]));
+      }
+     
+      let comments=JSON.parse(localStorage.getItem("comments"));
+
+      let comment={
+          userName:username,
+          userComment:usercomment,
+          date:date.toLocaleTimeString()
+      }
+      comments.push(comment);
+      getcommentBody(comment);
+      
+      localStorage.setItem("comments",JSON.stringify(comments));
+      inputName.value=" ";
+      inputTxt.value=" ";
+      commentCount();
+
+  })
+
+  getComment();
+
+  function getComment(){
+    let comments=JSON.parse(localStorage.getItem("comments"));
+    comments.forEach(comment => {
+        getcommentBody(comment)
+    });
+    
+  }
+
+  function getcommentBody(comment){
+    listComments.innerHTML+=`
+<li class="d-flex">
+                                    <div class="profile-photo"> <img src="./assets/images/comment-avatar.png" alt=""></div>
+                                    <div class="comment-content">
+                                        <div class="comment-headline">
+                                            <h5>${comment.userName}</h5>
+                                            <span>${comment.date}</span>
+                                            <a href="#">
+                                                <i class="fa fa-reply"></i>
+                                                Reply
+                                            </a>
+                                        </div>
+                                        <div class="comment-text">
+                                            <p>${comment.userComment}</p>
+                                        </div>
+                                    </div>
+                                </li>`
+  }
+   
+
+  commentCount();
+
+  function commentCount(){
+    let count=document.querySelector(".count")
+    let comments=JSON.parse(localStorage.getItem("comments"));
+    count.innerHTML=comments.length
+  }

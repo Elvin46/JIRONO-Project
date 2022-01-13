@@ -17,6 +17,7 @@
         align-items: center;
         .nav-left{
             display: flex;
+            align-items: center;
             .header-logo{
                 display: inline-block;
             }
@@ -32,6 +33,11 @@
                         font-size: 14px;
                         color: $secondary-color;
                         cursor: pointer;
+                        transition: 0.3s;
+                        line-height: 40px;
+                        &:hover{
+                            color: $main-color;
+                        }
                     }
                     i{
                         color: $text-color;
